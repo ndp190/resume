@@ -1,0 +1,157 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Nguyen} \headerlastnamestyle{Dai Phuc} \\
+	\vspace{2mm}
+	{\faEnvelope\ ndp190@gmail.com} | {\faMobile\ +83937321681} | {\faMapMarker\ Ho Chi Minh} | {\faLink\ https://www.linkedin.com/in/ndp190}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{B.A. in Management Information System}
+	{University of Finance - Marketing, Ho Chi Minh}
+	{}
+	{2008 – 2012}
+	{GPA: 7}
+	\cventry
+	{Data Engineering}
+	{Grokking Vietnam}
+	{}
+	{Nov 2016 – Dec 2016}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+	\cventry
+	{Developer}
+	{S3Corp}
+	{Ho Chi Minh}
+	{Mar 2013 – June 2015}
+	{\begin{cvitems}
+		\item {Develops websites \& APIs in Symfony2 framework for inSing HungryGoWhere}
+		\item {Develops BlackBerry 10 mobile applications}
+		\end{cvitems}}
+	\cventry
+	{Developer}
+	{MediHub}
+	{Ho Chi Minh}
+	{Jun 2015 – Jun 2016}
+	{\begin{cvitems}
+		\item {Involve in all steps of product development cycle}
+		\item {Setup infrastructure for MediHub application}
+		\item {Build and develop all core features of MediHub application}
+		\end{cvitems}}
+	\cventry
+	{Senior Developer}
+	{Go1}
+	{Ho Chi Minh}
+	{Jun 2016 – Present}
+	{\begin{cvitems}
+		\item {•	Work in different feature teams to develop various types of features}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ PHP, Javascript/Typescript/NodeJS, Python, Golang}} \\
+		Language:  & {\skill{ English (Advance), Vietnamese (Native)}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{A meme generator}
+	{RagePic}
+	{C++ (Qt/QML)}
+	{https://appworld.blackberry.com/webstore/content/20401932}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Find your doctor application}
+	{MediHub}
+	{PHP (Symfony2), Jenkins}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Food and restaurant review website}
+	{HungryGoWhere}
+	{PHP (Symfony2)}
+	{https://www.hungrygowhere.com}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+\cvsection{Awards}
+\begin{cvhonors}
+	\cvhonor
+	{Supreme Hacker}
+	{Project at a hackathon}
+	{HackNY}
+	{May 2015}
+\end{cvhonors}
+\ 
+\end{document}
