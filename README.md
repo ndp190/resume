@@ -1,6 +1,11 @@
 # About
 > LaTeX code generated at [resumake.io](https://resumake.io)
 
+## Pre-requisite
+Xelatex
+	
+	brew install mactex
+
 ## Usage
 To generate a PDF from this LaTeX code run:
 
