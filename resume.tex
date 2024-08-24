@@ -47,10 +47,10 @@
 %     Profile
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{center}
-	\headerfirstnamestyle{Nguyen} \headerlastnamestyle{Dai Phuc} \\
+    \headerfirstnamestyle{Nikk} \headerlastnamestyle{Nguyen} \\
 	\vspace{2mm}
 	{\faEnvelope\ ndp190@gmail.com} | {\faMobile\ +83937321681} | {\faMapMarker\ Ho Chi Minh} \\
-	{\faLinkedinSquare\ \href{https://www.linkedin.com/in/ndp190}{/ndp190}} | {\faGithubSquare\ \href{https://github.com/ndp190}{/ndp190}}
+	{\faHome\ \href{https://nikkdev.com/}{nikkdev}} | {\faLinkedinSquare\ \href{https://www.linkedin.com/in/ndp190}{/ndp190}} | {\faGithubSquare\ \href{https://github.com/ndp190}{/ndp190}}
 \end{center}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -59,23 +59,26 @@
 \cvsection{Work Experience}
 \begin{cventries}
 	\cventry
-	{Acting Technical Lead}
+    {Senior Developer - Content Features Team}
 	{Go1}
 	{Ho Chi Minh}
-	{Nov 2019 – Present}
+	{Aug 2022 – Present}
 	{\begin{cvitems}
-		\item {Providing users with a platform to discover byte-size content on the Web and attract more than 10,000 users in collaboration with our Data Science team}
-		\item {Collaboration with Data Science team to generate additional learning metadata for 80\% of content using Azure platform (speech-to-text, skill prediction, topic prediction) therefore enabling better customer searching experience}
+    \item {Automated AWS AppStream image builder across multiple regions, reducing human error and ensuring consistency. Improved build time by 300\% and optimized image building costs.}
+    \item {Optimized AWS AppStream streaming player, reducing operating costs from \$800/day to under \$100/day while maintaining performance.}
+    \item {Develop SCORM engine to replace Rustici engine, build various tools to automate testing of SCORM content (functional and non functional).}
 		\end{cvitems}}
 	\cventry
-	{Senior Developer}
+	{Senior Developer - Content Discovery Team}
 	{}
 	{}
 	{Feb 2019 – Oct 2019}
 	{\begin{cvitems}
+		\item {Providing users with a platform to discover byte-size content on the Web and attract more than 10,000 users in collaboration with our Data Science team}
+		\item {Collaboration with Data Science team to generate additional learning metadata for 80\% of content using Azure platform (speech-to-text, skill prediction, topic prediction) therefore enabling better customer searching experience}
 		\item {Enhance recommendation system to near real-time, thus increasing recommendation previews threefold}
 		\item {Help learners to find new content they love with the explore landing page (increase $\geq$1000 enrollment) and featured content block (attract $\geq$500 clicks) in 3 months period}
-		\item {Offering a flexible mechanism for easily tuning ranking in ElasticSearch}
+		\item {Implement a flexible mechanism for easy ranking tuning in ElasticSearch}
 		\item {Set up the PowerBI data source to surface 150 reports across all departments}
 		\end{cvitems}}
 	\cventry
@@ -101,7 +104,7 @@
 	{Developer}
 	{S3Corp}
 	{Ho Chi Minh}
-	{Mar 2013 – June 2015}
+	{Mar 2013 – Jun 2015}
 	{
 		\begin{cvitems}
 			\item {Builds websites and APIs using the Symfony2 framework for inSing HungryGoWhere}
@@ -109,15 +112,50 @@
 		\end{cvitems}
 	}
 \end{cventries}
+
+\cvsection{Relevant Work Experience}
+\begin{cventries}
+	\cventry
+    {IT Project Manager}
+    {Wagner Group (https://www.wagner-group.com)}
+	{Binh Duong}
+	{Jun 2022 – Mar 2023}
+	{\begin{cvitems}
+        \item {Facilitate the setup and integration of essential hardware, including servers, storage, printers, and network equipment.}
+        \item {Schedule IT-related tasks, adhere to project deadlines.}
+    \end{cvitems}}
+	\cventry
+    {Administrator}
+	{Home Server}
+	{Ho Chi Minh}
+	{Apr 2023 – Now}
+	{\begin{cvitems}
+        \item {Implement firewall, server monitoring, and NAS solutions}
+        \item {Serve various services such as Jellyfin, Syncthing, WireGuard VPN, DSM NAS, and more}
+    \end{cvitems}}
+	\cventry
+	{Podcast Producer}
+	{NguyenTalk.com}
+	{Ho Chi Minh}
+	{Jun 2023 – Now}
+	{
+		\begin{cvitems}
+            \item {Setup, record, edit, manage and publish podcast episodes}
+            \item {Provide storage, social media, website, and other technical solutions}
+		\end{cvitems}
+	}
+\end{cventries}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Education
+%     Skills
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \cvsection{Skills}
 \begin{cventries}
 	\cventry
 	{\def\arraystretch{1.15}{\begin{tabular}{p{3cm}@{\hspace{0.1cm}} @{\hspace{0.1cm}}p{3cm}@{\hspace{0.1cm}} @{\hspace{0.1cm}}p{3cm}@{\hspace{0.1cm}} }
-		{\faStar \, PHP} & {\faStarHalfO \, Javascript} & {\faStarHalfO \, HTML/CSS} \\
-		{\faStarHalfO \, Python} & {\faStarHalfO \, Golang} & {\faStarHalfO \, Shell Scripts} \\
+		{\faStar \, PHP} & {\faStarHalfO \, JS/TypeScript} & {\faStarHalfO \, HTML/CSS} \\
+		{\faStarHalfO \, Shell Scripts} & {\faStarHalfO \, Golang} & {\faStarHalfO \, Python} \\
 		\end{tabular}}}
 	{Programming Languages}
 	{}
@@ -125,12 +163,14 @@
 	{}
 	\cventry
 	{
-		\textbf{Databases}: MySQL, PostgreSQL, Neo4j, Redis \break
-		\textbf{Messaging}: RabbitMQ, Apache Kafka \break
-		\textbf{Frameworks}: NestJS, React, Next.js, Symfony2, Silex, FastAPI, Codeception \break
-		\textbf{CI/CD}: Git, Docker, Kubernetes, Terraform \break
-		\textbf{Platforms}: PowerBI, Microsoft Azure, Gitlab \break
-		\textbf{Interfaces}: REST, GraphQL
+		\textbf{Cloud Services}: Microsoft Azure, AWS, DigitalOcean, Vercel \break
+        \textbf{CI/CD \& Automation}: Git, Docker, Kubernetes, Terraform, Ansible \break
+        \textbf{Monitoring \& Logging}: DataDog, Grafana, Zabbix \break
+		\textbf{Platforms}: DataBrick, PowerBI, Gitlab, Github \break
+		\textbf{Databases}: MySQL, PostgreSQL, MongoDB, Redis, Neo4j \break
+        \textbf{Messaging \& Streaming}: RabbitMQ, Apache Kafka, Azure Event Hub \break
+		\textbf{Frameworks}: NestJS, React, Next.js, Symfony, FastAPI, Codeception \break
+		\textbf{Security}: Vault, SSL/TLS
 	}
 	{Technologies}
 	{}
@@ -146,37 +186,56 @@
 	{}
 \end{cventries}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \cvsection{Education and Certifications}
 \begin{cventries}
 	\cventry
 	{Coursera (Stanford Online)}
 	{Machine Learning Certification}
 	{}
-	{March 2020}
+	{Mar 2020}
 	{}
 	\cventry
 	{Grokking Vietnam}
 	{Data Engineering Certification}
 	{}
 	{Oct 2016 – Nov 2016}
-	{}
+    {Winning 1st place in the final project}
 	\cventry
 	{University of Finance - Marketing, Ho Chi Minh}
 	{B.A. in Management Information System}
 	{}
 	{2008 – 2012}
-	{}
+    {Class president for 4 years}
+
 \end{cventries}
 \vspace{-2mm}
 
-\vspace{-7mm}
 \cvsection{Projects}
 \begin{cventries}
 	\cventry
 	{Cloud-based learning solution}
-	{Go1}
+	{Go1.com}
 	{PHP, JS (React)}
 	{https://www.go1.com}
+	{}
+
+	\vspace{-5mm}
+	\cventry
+	{Personal blog}
+	{NikkDev.com}
+	{Next JS (React)}
+	{https://nikkdev.com/}
+	{}
+
+	\vspace{-5mm}
+	\cventry
+	{Career podcast website}
+	{NguyenTalk.com}
+    {Hugo + Netlify}
+	{https://nguyentalk.com/}
 	{}
 
 	\vspace{-5mm}
@@ -205,19 +264,5 @@
 
 	\vspace{-5mm}
 \end{cventries}
-\cvsection{Honors and Awards}
-\begin{cvhonors}
-	\cvhonor
-	{1st place}
-	{Final project}
-	{Grokking Vietnam}
-	{2016}
-
-	\cvhonor
-	{Class president}
-	{University of Finance - Marketing}
-	{}
-	{2008}
-\end{cvhonors}
 \ 
 \end{document}
